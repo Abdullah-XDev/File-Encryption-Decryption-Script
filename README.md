@@ -29,7 +29,12 @@ To decrypt the files, you must enter a secret phrase (NotMe).
 If the correct phrase is entered, the script will decrypt all files in the directory using the saved encryption key (thekey.key).
 If the wrong phrase is entered, the decryption will not occur.
 
-## How to Use
+## Usage
+1. Clone this repository:
+   ```bash
+   https://github.com/Abdullah-XDev/File-Encryption-Decryption-Script.git
+   
+## How to Use 
 1. Encrypt Files:
 Run the encrypt.py script to encrypt files in your current directory.
 The script will generate an encryption key (thekey.key) and encrypt all files.
