@@ -17,13 +17,13 @@ You can install it using pip:
 pip install cryptography
 ```
 ## How It Works
-# Encryption:
+### Encryption:
 
 The encryption script will encrypt all files in the directory (excluding itself, decrypt.py, and thekey.key).
 It will generate a random encryption key and save it as thekey.key.
 The encrypted files will overwrite the originals.
 
-# Decryption:
+### Decryption:
 
 To decrypt the files, you must enter a secret phrase (NotMe).
 If the correct phrase is entered, the script will decrypt all files in the directory using the saved encryption key (thekey.key).
